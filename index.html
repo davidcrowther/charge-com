@@ -300,7 +300,8 @@
             required: true
           },
           phone_business: {
-            minlength: 2,
+            minlength: 10, 
+            digits: true,
             required: true
           },  
           email: {
@@ -316,7 +317,10 @@
             label
                 .text('OK!').addClass('valid')
                 .closest('.form-group').addClass('success');
-        }
+        },
+        messages: {
+          phone_business: "Phone Number should contain at least 10 numbers"
+        } 
     });        
  
     $('form.top-form-2').validate({
@@ -330,7 +334,8 @@
             required: true
           },
           phone_business: {
-            minlength: 2,
+            minlength: 10, 
+            digits: true,
             required: true
           },  
           email: {
@@ -346,8 +351,11 @@
             label
                 .text('OK!').addClass('valid')
                 .closest('.form-group').addClass('success');
-        }
-    });        
+        },
+        messages: {
+          phone_business: "Phone Number should contain at least 10 numbers"
+        } 
+    });                
 
   });
  
