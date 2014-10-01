@@ -216,7 +216,8 @@ article.top-header {
       background: #d8d8c0;
       text-align: center;
       color: #276aa1;
-      border-radius: 9px; }
+      border-radius: 9px 9px 0px 0px;
+      width: 100%; }
       article.top-header .well.get-started p {
         font-size: 1.01em;
         line-height: 183%;
@@ -233,7 +234,7 @@ article.top-header {
           width: 100%; } }
     article.top-header .well.with-form {
       background: rgba(0, 0, 0, 0.1);
-      padding: 25px 29px 15px 29px;
+      padding: 0px 0px 15px 0px;
       border-radius: 8px;
       position: absolute;
       bottom: 100px;
@@ -247,7 +248,7 @@ article.top-header {
         article.top-header .well.with-form {
           display: block; } }
       article.top-header .well.with-form .form-group {
-        padding: 0px 0px 24px 0px;
+        padding: 0px 29px 24px 29px;
         margin: 0;
         position: relative; }
         article.top-header .well.with-form .form-group.last {
@@ -265,7 +266,7 @@ article.top-header {
             padding: 3px;
             border-radius: 0 0 3px 3px;
             position: relative;
-            top: -2px;
+            top: -3px;
             line-height: 100%;
             color: #c09853;
             background-color: #fcf8e3;
@@ -297,7 +298,7 @@ article.top-header {
           width: 100%; }
         @media (max-width: 768px) {
           article.top-header .well.with-form .btn-holder {
-            padding: 14px 0px 14px 0px;
+            padding: 14px 29px 14px 29px;
             width: 100%;
             right: 0;
             bottom: 0;
