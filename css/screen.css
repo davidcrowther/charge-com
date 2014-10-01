@@ -166,6 +166,12 @@ article.top-header {
   article.top-header .logo-holder {
     margin-bottom: 70px;
     text-align: right; }
+    article.top-header .logo-holder p.call-us {
+      font-size: 1.3em;
+      font-family: "LR";
+      color: #286ba2;
+      margin: 20px 0;
+      text-align: right; }
     article.top-header .logo-holder img {
       display: inline-block; }
     @media (max-width: 768px) {
@@ -213,9 +219,12 @@ article.top-header {
     float: right; }
     article.top-header .well.get-started {
       padding: 10px 15px 6px 15px;
-      background: #d8d8c0;
+      background: transparent;
+      border-bottom: 2px solid #fff;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.4);
       text-align: center;
-      color: #276aa1;
+      color: #fff;
+      text-shadow: 2px 2px 1px #59524c;
       border-radius: 9px 9px 0px 0px;
       width: 100%; }
       article.top-header .well.get-started p {
